@@ -1,0 +1,75 @@
+# Locally maintained project documentation (publication review pending)
+AGENTS.md
+README.md
+docs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment files, credentials, and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+credentials
+**/credentials
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.*
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+crash.log
+crash.*.log
+
+# Ansible
+*.retry
+ansible/collections/
+
+# Logs, generated evidence, databases, and temporary output
+*.log
+logs/
+evidence/
+audit-evidence/
+reports/generated/
+*.db
+*.sqlite
+*.sqlite3
+tmp/
+temp/
+.tmp/
+
+# Editors and operating systems
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Markdown files
+*.md
